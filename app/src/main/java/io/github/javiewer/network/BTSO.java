@@ -14,7 +14,7 @@ import retrofit2.http.Url;
  */
 public interface BTSO {
 
-    String BASE_URL = "https://btos.pw";
+    String BASE_URL = "https://btsow.club";
     BTSO INSTANCE = new Retrofit.Builder()
             .baseUrl(BTSO.BASE_URL)
             .client(JAViewer.HTTP_CLIENT)
