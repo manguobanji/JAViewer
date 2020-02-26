@@ -112,7 +112,7 @@ public class StartActivity extends AppCompatActivity {
                         @Override
                         public void onClick(DialogInterface dialog, int which) {
                             start();
-                            startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/SplashCodes/JAViewer/releases")));
+                            startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/SeanChengN/JAViewer/releases")));
                         }
                     })
                     .create();
