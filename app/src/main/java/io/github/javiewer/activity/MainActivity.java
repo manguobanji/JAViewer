@@ -56,7 +56,8 @@ public class MainActivity extends SecureActivity {
     public static final int ID_RELEASED = 4;
     public static final int ID_ACTRESSES = 5;
     public static final int ID_GENRE = 6;
-    public static final int ID_GITHUB = 7;
+    public static final int ID_GITHUB1 = 7;
+    public static final int ID_GITHUB2 = 8;
 
     public static final Map<Integer, Class<? extends Fragment>> FRAGMENTS = new HashMap<Integer, Class<? extends Fragment>>() {{
         put(ID_HOME, HomeFragment.class);
@@ -131,7 +132,8 @@ public class MainActivity extends SecureActivity {
                         new PrimaryDrawerItem().withIdentifier(ID_ACTRESSES).withName("女优").withIcon(R.drawable.ic_menu_actresses).withIconTintingEnabled(true),
                         new PrimaryDrawerItem().withIdentifier(ID_GENRE).withName("类别").withIcon(R.drawable.ic_menu_genre).withIconTintingEnabled(true),
                         new DividerDrawerItem(),
-                        new PrimaryDrawerItem().withIdentifier(ID_GITHUB).withName("GitHub").withTag("Github").withIcon(R.drawable.ic_menu_github).withIconTintingEnabled(true).withSelectable(false)
+                        new PrimaryDrawerItem().withIdentifier(ID_GITHUB1).withName("SeanChengN").withTag("Github").withIcon(R.drawable.ic_menu_github).withIconTintingEnabled(true).withSelectable(false),
+                        new PrimaryDrawerItem().withIdentifier(ID_GITHUB2).withName("SplashCodes").withTag("Github").withIcon(R.drawable.ic_menu_github).withIconTintingEnabled(true).withSelectable(false)
                 )
                 .withSelectedItem(ID_HOME)
                 .withOnDrawerItemClickListener(new Drawer.OnDrawerItemClickListener() {
@@ -140,7 +142,13 @@ public class MainActivity extends SecureActivity {
                         idOfDrawerItem = (int) drawerItem.getIdentifier();
 
                         switch ((int) drawerItem.getIdentifier()) {
-                            case ID_GITHUB: {
+                            case ID_GITHUB1: {
+                                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/SeanChengN/JAViewer/releases"));
+                                intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                                startActivity(intent);
+                                break;
+                            }
+                            case ID_GITHUB2: {
                                 Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/SplashCodes/JAViewer/releases"));
                                 intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                                 startActivity(intent);

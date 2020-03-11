@@ -1,7 +1,7 @@
 {
-  "latest_version": "2.0.0-fuck-0226",
-  "latest_version_code": "18",
-  "changelog": "**修改版更新**\n2.0.0-fuck-0226 \n修复应用内更新检查",
+  "latest_version": "2.0.0-fuck-0311",
+  "latest_version_code": "19",
+  "changelog": "**修改版更新**\n2.0.0-fuck-0311 \n侧滑栏增加修改版Github地址",
   "data_sources": [
     {
       "name": "AVMOO 日本",

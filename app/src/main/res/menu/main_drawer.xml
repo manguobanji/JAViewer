@@ -39,9 +39,13 @@
 
     <group android:id="@+id/nav_group3">
         <item
-            android:id="@+id/nav_github"
+            android:id="@+id/nav_github1"
             android:icon="@drawable/ic_menu_github"
-            android:title="GitHub" />
+            android:title="SeanChengN" />
+        <item
+            android:id="@+id/nav_github2"
+            android:icon="@drawable/ic_menu_github"
+            android:title="SplashCodes" />
     </group>
 
 
