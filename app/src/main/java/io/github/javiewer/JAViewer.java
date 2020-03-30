@@ -47,8 +47,9 @@ import retrofit2.Retrofit;
  */
 
 public class JAViewer extends Application {
-
-    public static final String USER_AGENT = "Mozilla/5.0 (Linux; Android 5.1.1; Nexus 5 Build/LMY48B; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/43.0.2357.65 Mobile Safari/537.36";
+    final static String webkit = (int)( System.currentTimeMillis() % 550 )+"."+(int)( System.currentTimeMillis() % 99 );
+    final static String chrome = (int)( System.currentTimeMillis() % 4000 )+"."+(int)( System.currentTimeMillis() % 999 );
+    public static final String USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/"+webkit+" (KHTML, like Gecko) Chrome/80.0."+chrome+" Safari/"+webkit;
     public static final List<DataSource> DATA_SOURCES = new ArrayList<>();
     public static final Map<Integer, Class<? extends Fragment>> FRAGMENTS = new HashMap<Integer, Class<? extends Fragment>>() {{
         put(R.id.nav_home, HomeFragment.class);
