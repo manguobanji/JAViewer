@@ -1,7 +1,7 @@
 {
-  "latest_version": "2.0.0-fuck-0311",
-  "latest_version_code": "19",
-  "changelog": "**修改版更新**\n2.0.0-fuck-0311 \n侧滑栏增加修改版Github地址",
+  "latest_version": "2.0.0-fuck-0331",
+  "latest_version_code": "20",
+  "changelog": "**修改版更新**\n2.0.0-fuck-0331 \n修复图片无法显示，感谢@WatcherOfTheWorld",
   "data_sources": [
     {
       "name": "AVMOO 日本",
