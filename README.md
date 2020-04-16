@@ -23,6 +23,8 @@ A3. 切换无码再切回有码，应用将自动更新网址。搭梯子/换线
 A4. 用带有文本查找替换功能的应用（比如MT管理器）打开 properties.json 文件（通常在根目录 JAViewer 文件夹内），查找 avmoo.asia 全部替换为 avmask.com 并保存，然后重启应用。**以后网址再改变的话，也是同样操作，我会在此处标注需要替换的内容。**
 > 嫌麻烦的话，删掉旧收藏再重新收藏也行。
 
+`avmask.com > avmoo.host` 2020/4/16
+
 `avsox.asia > avsox.host` 2020/1/26
 
 `avmoo.asia > avmask.com` 2019/9/19
