@@ -1,7 +1,7 @@
 {
-  "latest_version": "2.0.0-fuck-0331",
-  "latest_version_code": "20",
-  "changelog": "**修改版更新**\n2.0.0-fuck-0331 \n修复图片无法显示，感谢@WatcherOfTheWorld",
+  "latest_version": "2.0.0-fuck-0812",
+  "latest_version_code": "22",
+  "changelog": "**修改版更新**\n2.0.0-fuck-0812 \n修复BTSO",
   "data_sources": [
     {
       "name": "AVMOO 日本",
